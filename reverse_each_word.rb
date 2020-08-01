@@ -1,2 +1,11 @@
+require "pry"
 def reverse_each_word(string)
-  puts "Hello there, and how are you?"
+  array = string.split(" ")
+  # binding.pry
+  array.collect do |word|
+  new_array << word.reverse
+    # binding.pry
+  end
+  # binding.pry
+  
+end
